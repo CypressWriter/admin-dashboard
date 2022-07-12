@@ -1,3 +1,53 @@
+.sidebar {
+    background-color: deepskyblue;
+
+}
+
 body {
-    background-color: gray ;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+}
+
+#searchbar {
+    background-color: lightgray;
+    border: none;
+    border-radius: 10px;
+}
+
+.buttons {
+    background-color: deepskyblue;
+    border: none;
+    border-radius: 10px;
+}
+
+.projects {
+    background-color: lightgray;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.project {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border-left: 5px solid orange;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
