@@ -8,10 +8,12 @@ body {
     grid-template-columns: 1fr 4fr;
 
     font-family: 'Roboto', sans-serif;
+    
 }
 
 html, body {
     height: 100%;
+    
 }
 
 .main {
@@ -45,9 +47,41 @@ html, body {
     height: 200px;
     background-color: white;
     border-left: 5px solid orange;
+    border-radius: 10px;
 }
 
 .bottom {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.toptext {
+    font-size: 12px;
+}
+.bottomtext {
+    font-size: 18px;
+}
+
+.profiletop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.announcementsList {
+    width: 270px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.trendingList {
+    width: 270px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.TrendingProfile {
+    display: grid;
+    grid-template-columns: 50px 250px 50px;
 }
