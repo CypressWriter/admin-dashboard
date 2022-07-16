@@ -1,0 +1,1 @@
+document.getElementById('searchbar').style.width = "500px";

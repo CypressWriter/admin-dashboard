@@ -1,6 +1,9 @@
 .sidebar {
     background-color: deepskyblue;
 
+    display: grid;
+    grid-template-rows: 75px 350px 150px;
+    justify-content: center;
 }
 
 body {
@@ -27,10 +30,21 @@ html, body {
     border-radius: 10px;
 }
 
+.buttonsGroup {
+
+
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+}
+
 .buttons {
     background-color: deepskyblue;
     border: none;
     border-radius: 10px;
+    width: 100px;
+    height: 50px;
 }
 
 .projects {
@@ -64,7 +78,7 @@ html, body {
 
 .profiletop {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 70px 400px 700px;
 }
 
 .announcementsList {
