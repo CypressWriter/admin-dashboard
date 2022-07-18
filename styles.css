@@ -4,6 +4,7 @@
     display: grid;
     grid-template-rows: 75px 350px 150px;
     justify-content: center;
+    
 }
 
 body {
@@ -16,7 +17,6 @@ body {
 
 html, body {
     height: 100%;
-    
 }
 
 .main {
@@ -67,6 +67,10 @@ html, body {
 .bottom {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    justify-items: center;
+    align-items: center;
+    padding: 1em;
 }
 
 .toptext {
